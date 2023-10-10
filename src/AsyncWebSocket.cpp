@@ -540,7 +540,7 @@ bool AsyncWebSocketClient::queueIsFull(){
   return false;
 }
 
-//Added by Aircoookie for WLED
+//Added by Aircoookie for WLED - ewowi
 uint16_t AsyncWebSocketClient::queueLength(){
   return _messageQueue.length();
 }
